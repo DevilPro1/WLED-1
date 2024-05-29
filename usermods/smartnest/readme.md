@@ -31,8 +31,9 @@ Under Config > Sync Interfaces > MQTT:
 Wait `1 minute` after turning it on, as it usually takes a while.  
 
 ## Change log
- 2022-09
-* First implementation.
+
+2022-09
+ * First implementation.
  2024-05
 * Solved code.
 * Updated documentation.
