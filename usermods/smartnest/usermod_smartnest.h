@@ -193,7 +193,7 @@ public:
       lastMqttReport = currentMillis;
       
       // Report current brightness
-      char brightnessMsg[6];
+      char brightnessMsg[11];
       sprintf(brightnessMsg, "%u", bri);
       sendToBroker("report/brightness", brightnessMsg);
       
